@@ -33,6 +33,7 @@ const authenticated = (next) => (root, args, context, info) => {
   if (!context.user) {
     throw new Error("Not Authenticated");
   }
+  console.log("Authenticated...now calling next function");
   return next(root, args, context, info);
 };
 
@@ -46,6 +47,7 @@ const authorized = (role, next) => (root, args, context, info) => {
   if (context.user.role !== role) {
     throw new Error(`Not Authorized... User should have role ${role}`);
   }
+  console.log("Authorized....now calling next function");
   return next(root, args, context, info);
 };
 
