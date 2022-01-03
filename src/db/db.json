@@ -8,6 +8,24 @@
       "avatar": "http",
       "createdAt": 1571213104370,
       "id": "Z2hlvDmLOSRZGebC_Z_aA"
+    },
+    {
+      "email": "santosh@gmail.com",
+      "password": "santosh",
+      "role": "ADMIN",
+      "verified": false,
+      "avatar": "http",
+      "createdAt": 1641230807064,
+      "id": "GMaFosA3LSXziVtf0Cqxi"
+    },
+    {
+      "email": "santosh2@gmail.com",
+      "password": "santosh",
+      "role": "ADMIN",
+      "verified": false,
+      "avatar": "http",
+      "createdAt": 1641230866709,
+      "id": "qeaSQ363QNBgpmB-HtZ4x"
     }
   ],
   "posts": [],
